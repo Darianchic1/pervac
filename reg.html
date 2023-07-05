@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/reg.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Registration</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="left" style="width: 55%; float:left">
+            <p class="text">Welcome!</p>
+            <img class="logo" src="static/freshmen.png">
+        </div>
+        <div class="right" style="width: 45%; float:left">
+            <p class="log">Let's begin</p>
+            <div class="tick">
+                <input class="solo" type="radio" name="contact" value="email">
+                <label for="solo">Пользователь</label>
+
+                <input type="radio" class="group" name="contact" value="phone">
+                <label for="group">Группа</label>
+            </div>
+        <div class="strike">
+            <input class="first" placeholder="  ФИО/Название группы" type="text" pattern="\s" style="margin-top: 7%">
+            <p><input class="first" placeholder="  Почта" type="text" style="margin-top: 1%"></p>
+            <p><input class="first" placeholder="  Пароль" type="text" style="margin-top: 1%"></p>
+            <p><input class="first" placeholder="  Введите пароль ещё раз" type="text" style="margin-top: 1%"></p>
+            <p><input class="first" placeholder="  ВУЗ/СПО" type="text" style="margin-top: 1%"></p>
+            <p><input class="first" placeholder="  Специальность (в формате 09.03.02)" type="text" style="margin-top: 1%"></p>
+            <p><input class="first" placeholder="  Курс (1, 2, 3...)" type="text" style="margin-top: 1%"></p>
+        </div>
+        <a href="ent.html" style="text-decoration: none;">
+            <p class="n">Уже зарегистрирован?</p>
+        </a>
+        <button class="sign">Sign up</button>
+    </div>
+    </div>
+</body>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="test.js"></script>
+</html>
