@@ -64,8 +64,8 @@
     font-size: 17px;
     font-weight: 600;
 
-    margin-top: -21%;
-    margin-left: 23%;
+    margin-top: -23%;
+    margin-left: 25%;
 }
 
 .mini-price-right{
@@ -75,8 +75,8 @@
     font-size: 17px;
     font-weight: 600;
 
-    margin-top: -21%;
-    margin-left: 11%;
+    margin-top: -23%;
+    margin-left: 14%;
 }
 
 .but-left{
@@ -94,7 +94,7 @@
     font-weight: 600;
 
     position: absolute;
-    margin-top: 34%;
+    margin-top: 36%;
     margin-left: -17%;
 
     cursor: pointer;
@@ -115,7 +115,7 @@
     font-weight: 600;
 
     position: absolute;
-    margin-top: 34%;
+    margin-top: 36%;
     margin-left: -17%;
 
     cursor: pointer;
@@ -123,4 +123,28 @@
 
 button:hover{
     background-color: rgb(216, 119, 0);
+}
+
+.desc-price-left{
+    position: absolute;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+
+    margin-top: -20%;
+    margin-left: 23%;
+
+    width: 21%;
+}
+
+.desc-price-right{
+    position: absolute;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+
+    margin-top: -20%;
+    margin-left: 7%;
+
+    width: 21%;
 }
